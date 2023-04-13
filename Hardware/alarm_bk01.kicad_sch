@@ -1296,7 +1296,7 @@
   (symbol (lib_id "Transistor_BJT:MMBT3904") (at 181.61 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 44c6629f-444c-4570-ae20-d18b013e1452)
-    (property "Reference" "Q?" (id 0) (at 186.69 113.0299 0)
+    (property "Reference" "Q1" (id 0) (at 186.69 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT3904" (id 1) (at 186.69 115.5699 0)
@@ -1373,7 +1373,7 @@
     (property "Value" "Buzzer" (id 1) (at 205.74 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" (id 2) (at 201.295 97.79 90)
+    (property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (id 2) (at 201.295 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 201.295 97.79 90)
@@ -1609,7 +1609,7 @@
     (property "Value" "Buzzer" (id 1) (at 222.25 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" (id 2) (at 217.805 97.79 90)
+    (property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (id 2) (at 217.805 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 217.805 97.79 90)
@@ -1787,10 +1787,10 @@
       (reference "BT1") (unit 1) (value "Battery") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left")
     )
     (path "/62b1c3a5-5b3d-41c0-87bf-3745073e4764"
-      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left")
+      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
     )
     (path "/d055d058-4a7f-4fe6-bc16-72f2dd4caaad"
-      (reference "BZ2") (unit 1) (value "Buzzer") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left")
+      (reference "BZ2") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
     )
     (path "/f9d78065-9a5e-4d58-b424-72b0930f1c67"
       (reference "C1") (unit 1) (value "100u") (footprint "Capacitor_SMD:CP_Elec_6.3x5.4")
@@ -1808,7 +1808,7 @@
       (reference "D3") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
     )
     (path "/44c6629f-444c-4570-ae20-d18b013e1452"
-      (reference "Q?") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9d7bf49a-8ec5-4160-a5bc-4a0fd8b49fa5"
       (reference "R1") (unit 1) (value "180") (footprint "Resistor_SMD:R_1206_3216Metric")
