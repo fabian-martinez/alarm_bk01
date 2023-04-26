@@ -1440,7 +1440,7 @@
     (property "Value" "Sensor" (id 1) (at 214.63 50.7999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "custom:WS420" (id 2) (at 208.28 49.53 0)
+    (property "Footprint" "custom:CX-2548" (id 2) (at 208.28 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 208.28 49.53 0)
@@ -1540,7 +1540,7 @@
     (property "Value" "Battery" (id 1) (at 34.29 44.0689 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" (id 2) (at 30.48 41.656 90)
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (id 2) (at 30.48 41.656 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 41.656 90)
@@ -1784,7 +1784,7 @@
       (reference "#PWR05") (unit 1) (value "VCC") (footprint "")
     )
     (path "/a1ff142e-222a-487e-ab42-3d9925a354a7"
-      (reference "BT1") (unit 1) (value "Battery") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left")
+      (reference "BT1") (unit 1) (value "Battery") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/62b1c3a5-5b3d-41c0-87bf-3745073e4764"
       (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
@@ -1832,7 +1832,7 @@
       (reference "SW1") (unit 1) (value "START") (footprint "custom:microswitch")
     )
     (path "/8af485cd-02c4-4345-a1c0-5f4c331e670b"
-      (reference "SW2") (unit 1) (value "Sensor") (footprint "custom:WS420")
+      (reference "SW2") (unit 1) (value "Sensor") (footprint "custom:CX-2548")
     )
     (path "/27696774-af07-4965-b944-23123e757a25"
       (reference "SW3") (unit 1) (value "SW_SPDT") (footprint "custom:SW-horizontal")
