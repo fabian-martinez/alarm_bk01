@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Alarma1.kicad_pro",
+    "filename": "Alarma2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -380,8 +380,8 @@
       "idf": "",
       "netlist": "../../../../../Applications/KiCad/",
       "specctra_dsn": "",
-      "step": "Alarma1.step",
-      "vrml": "Alarma1.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
